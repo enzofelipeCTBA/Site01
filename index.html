@@ -1,217 +1,96 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Blog Tech</title>
-    <style>
-        /* Configurações Globais */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+    <title>Blog</title>
 
-        body {
-            background-color: #f9f9f9;
-            color: #333;
-            line-height: 1.6;
-        }
 
-        /* Header (Cabeçalho azul) */
-        header {
-            background-color: #1a426e; /* Azul escuro inspirado na imagem */
-            color: #ffffff;
-            text-align: center;
-            padding: 3rem 1rem;
-        }
-
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-        }
-
-        header p {
-            font-size: 1.1rem;
-            opacity: 0.9;
-        }
-
-        /* Container Principal */
-        .container {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 0 1.5rem;
-        }
-
-        /* Estilização dos Posts */
-        .post {
-            background: #ffffff;
-            border-radius: 8px;
-            padding: 1.5rem;
-            margin-bottom: 2rem;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-            display: flex;
-            gap: 1.5rem;
-            align-items: flex-start;
-        }
-
-        /* Ícone fictício ao lado do post */
-        .post-icon {
-            background-color: #e3f2fd;
-            color: #1a426e;
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-            flex-shrink: 0;
-        }
-
-        .post-content {
-            flex-grow: 1;
-        }
-
-        .post-title {
-            color: #1a426e;
-            font-size: 1.5rem;
-            margin-bottom: 0.3rem;
-        }
-
-        .post-author {
-            font-size: 0.9rem;
-            color: #666;
-            font-weight: 600;
-            margin-bottom: 0.8rem;
-        }
-
-        .post-text {
-            color: #444;
-            margin-bottom: 1rem;
-        }
-
-        /* Botões de Reação (Likes/Hearts) */
-        .post-reactions {
-            display: flex;
-            gap: 0.5rem;
-        }
-
-        .btn-reaction {
-            background-color: #eaeaea;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            padding: 0.3rem 0.6rem;
-            font-size: 0.9rem;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            gap: 0.3rem;
-            transition: background 0.2s;
-        }
-
-        .btn-reaction:hover {
-            background-color: #ddd;
-        }
-
-        /* Rodapé */
-        footer {
-            text-align: center;
-            padding: 2rem;
-            color: #888;
-            font-size: 0.9rem;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
+
+
 <body>
+
 
     <header>
         <h1>Meu blog tech</h1>
         <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
     </header>
 
-    <main class="container">
 
-        <article class="post">
-            <div class="post-icon">💻</div>
-            <div class="post-content">
-                <h2 class="post-title">Meu primeiro post</h2>
-                <p class="post-author">Por: Enzo Felipe</p>
-                <p class="post-text">
-                    Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.
+    <main>
+
+
+        <article>
+            <img src="imagem-blog (1).png"
+                alt="Logotipo conceitual de tecnologia e educação: um livro aberto de onde emerge um cérebro digital brilhante, cercado por ícones de Wi-Fi, circuitos e lâmpada de ideia. Cores em tons de azul e branco.">
+
+
+            <div>
+                <h2>Meu primeiro post</h2>
+
+
+                <p class="artigo-autor">Por: Marcelo Paludetto</p>
+
+
+                <p>
+                    Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação
+                    e curiosidades da área de tecnologia.
                 </p>
-                <div class="post-reactions">
-                    <button class="btn-reaction">❤️ <span>0</span></button>
-                    <button class="btn-reaction">👍 <span>0</span></button>
-                </div>
+
+
+                <button>
+                    ❤️ <span>0</span>
+                </button>
+
+
+                <button>
+                    👍 <span>0</span>
+                </button>
             </div>
         </article>
 
-        <article class="post">
-            <div class="post-icon">🚀</div>
-            <div class="post-content">
-                <h2 class="post-title">Meu segundo post</h2>
-                <p class="post-author">Por: Enzo Felipe</p>
-                <p class="post-text">
-                   Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.
+
+        <article>
+            <img src="imagem-blog (1).png"
+                alt="Logotipo conceitual de tecnologia e educação: um livro aberto de onde emerge um cérebro digital brilhante, cercado por ícones de Wi-Fi, circuitos e lâmpada de ideia. Cores em tons de azul e branco.">
+
+
+            <div>
+                <h2>Meu segundo post</h2>
+
+
+                <p class="artigo-autor">Por: Marcelo Paludetto</p>
+
+
+                <p>
+                    Boas-vindas ao meu novo blog! Aqui vou compartilhar dicas de programação
+                    e curiosidades da área de tecnologia.
                 </p>
-                <div class="post-reactions">
-                    <button class="btn-reaction">❤️ <span>0</span></button>
-                    <button class="btn-reaction">👍 <span>0</span></button>
-                </div>
+
+
+                <button>
+                    ❤️ <span>0</span>
+                </button>
+
+
+                <button>
+                    👍 <span>0</span>
+                </button>
             </div>
         </article>
+
 
     </main>
 
-    <footer>
-        <p>&copy; 2026 - Meu Blog Tech. Todos os direitos reservados.</p>
-    </footer>
-    <article class="post">
-            <div class="post-icon">⚡</div>
-            <div class="post-content">
-                <h2 class="post-title">Atalhos que salvam tempo no VS Code</h2>
-                <p class="post-author">Por: Enzo Felipe</p>
-                <p class="post-text">
-                    Produtividade é tudo na programação. Dominar atalhos como <code>Ctrl + D</code> para selecionar palavras iguais ou <code>Alt + Seta para Cima/Baixo</code> para mover linhas de código agiliza muito o desenvolvimento no dia a dia!
-                </p>
-                <div class="post-reactions">
-                    <button class="btn-reaction">❤️ <span>12</span></button>
-                    <button class="btn-reaction">👍 <span>8</span></button>
-                </div>
-            </div>
-        </article>
-
-        <article class="post">
-            <div class="post-icon">🎨</div>
-            <div class="post-content">
-                <h2 class="post-title">Por que você deve aprender CSS Flexbox hoje</h2>
-                <p class="post-author">Por: Enzo Felipe</p>
-                <p class="post-text">
-                    Alinhar elementos na tela costumava ser uma dor de cabeça no desenvolvimento web. Com o Flexbox, criar layouts responsivos e alinhar componentes (como os cards desse blog) ficou incrivelmente simples e direto.
-                </p>
-                <div class="post-reactions">
-                    <button class="btn-reaction">❤️ <span>15</span></button>
-                    <button class="btn-reaction">👍 <span>10</span></button>
-                </div>
-            </div>
-        </article>
-
-        <article class="post">
-            <div class="post-icon">📚</div>
-            <div class="post-content">
-                <h2 class="post-title">Como estruturar seus estudos de programação</h2>
-                <p class="post-author">Por: Enzo Felipe</p>
-                <p class="post-text">
-                    Não tente abraçar o mundo! A melhor forma de aprender é focar firmemente em uma base sólida (HTML, CSS e JavaScript básico) antes de pular para frameworks complexos como React ou Vue. Menos é mais no começo.
-                </p>
-                <div class="post-reactions">
-                    <button class="btn-reaction">❤️ <span>24</span></button>
-                    <button class="btn-reaction">👍 <span>19</span></button>
-                </div>
-            </div>
-        </article>
 
 </body>
+
+
 </html>
+
+
